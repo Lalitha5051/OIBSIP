@@ -1,0 +1,87 @@
+body {
+  background-image: url("lalli.jpeg");
+}
+
+h1 {
+  
+  text-align: center;
+  font-family:Arial,san-serif;
+  color:black;
+}
+h2{
+  text-align:left;
+  font-family:Arial;
+  font-size: 30px;
+  padding-top: 400px;
+  padding-left: 100x;
+  
+}
+
+.tapnav{
+  list-style-type:none;
+  margin: 0;
+  padding: 0;
+  overflow:hidden;
+  background-color:#333;
+}
+.topnav{
+  float:left;
+}
+ 
+  
+.topnav a{
+  float:left;
+  display:inline-block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration:none;
+  font-size:20px;
+  
+}
+
+
+.topnav a:hover{
+  background-color: #04AA6D;
+  color:black;
+  
+}
+.topnav a.active {
+  background-color:pink;
+  color:black;
+  padding: 30px;
+  float: left;
+  
+}
+.topnav a.about
+{
+  padding: 30px;
+  float: left;
+
+}
+.topnav a.contact
+{
+  padding:30px;
+  float: left;
+
+}
+
+.topnav input[type=text] {
+  float: right;
+  padding: 6px;
+  border: none;
+  margin-top: 8px;
+  margin-right: 16px;
+  font-size: 17px;
+}
+.heading
+{
+  text-align:left;
+  padding-left: 100px;
+  padding-top: 100px;
+  
+}
+::placeholder {
+  color:dodgerblue;
+  opacity: 1; 
+}
