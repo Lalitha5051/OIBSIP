@@ -1,0 +1,26 @@
+h1{
+    color:indigo;
+    
+}
+label{
+    display: inline;
+}
+#box{    
+    border: 2px solid black;
+    margin: 15px;
+    height: auto;
+    padding: 20px;
+}
+.button{
+    color:white;
+    font-size: 16px;
+    background-color:rgba(25, 0, 255, 0.738);
+    border-radius: 8px;
+    padding: 15px 30px;
+    width: 100%;
+    
+    
+}
+  
+
+   
