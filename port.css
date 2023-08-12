@@ -1,0 +1,54 @@
+body{
+    background-color:lavenderblush;
+ }  
+h1{
+    
+    
+    font-family: Arial, Helvetica, sans-serif;
+    color:black;
+    text-align: center;
+    
+}
+h3{
+    border: 2px solid dodgerblue;
+    font-size: small;
+   
+     width: 100px;
+     padding: 1px;
+     margin: 0px;
+     color: white;
+     background-color:dodgerblue;
+     border-block-end: 2px;
+     border-bottom border-block-end-style: 2px;
+
+
+
+}
+h4{
+    border:2px solid dodgerblue;
+    width: 140px;
+    margin: 0px;
+    padding: 1px;
+    font-size: small;
+    
+    color:white;
+    background-color: dodgerblue;
+
+}
+.stu{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: justify;
+    
+    
+}
+.edu{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+hr{
+    border-top: 1px solid  dodgerblue;
+    margin-top: 0em;
+   margin-bottom: 0em;
+   border-width: 2px;
+}
+
