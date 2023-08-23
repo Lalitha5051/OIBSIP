@@ -1,87 +1,97 @@
 body {
-  background-image: url("travelmore.jpeg");
-}
-
-h1 {
+    background-image: url(travelmore.jpeg);
+    
+  }
   
-  text-align: center;
-  font-family:Arial,san-serif;
-  color:black;
-}
-h2{
-  text-align:left;
-  font-family:Arial;
-  font-size: 30px;
-  padding-top: 400px;
-  padding-left: 100x;
+  h1 {
+    
+    text-align: center;
+    font-family:Arial,san-serif;
+    color:black;
+  }
+  h2{
+    text-align:left;
+    font-family:Arial;
+    font-size: 30px;
+    padding-top: 400px;
+    padding-left: 100x;
+    color:crimson;
+    
+  }
   
-}
-
-.tapnav{
-  list-style-type:none;
-  margin: 0;
-  padding: 0;
-  overflow:hidden;
-  background-color:#333;
-}
-.topnav{
-  float:left;
-}
- 
+  .tapnav{
+    list-style-type:none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    overflow:hidden;
+    background-color:#333;
+  }
+  .topnav{
+    float:left;
+  }
+   
+    
+  .topnav a{
+    
+    display:inline-block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration:none;
+    font-size:20px;
+    
+  }
+  .image{
+    display:flex ;
+    float: right;
+  }
   
-.topnav a{
-  float:left;
-  display:inline-block;
-  color: black;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration:none;
-  font-size:20px;
   
-}
-
-
-.topnav a:hover{
-  background-color: #04AA6D;
-  color:black;
+  .topnav a:hover{
+    background-color: #04AA6D;
+    color:black;
+    
+  }
+  .topnav a.active {
+    background-color:orange;
+    color:black;
+    padding: 30px;
+    float: left;
+    
+  }
+  .topnav a.about
+  {
+    padding: 30px;
+    float: left;
+    color: white;
   
-}
-.topnav a.active {
-  background-color:pink;
-  color:black;
-  padding: 30px;
-  float: left;
+  }
+  .topnav a.contact
+  {
+    padding:30px;
+    float: left;
+    color: white;
   
-}
-.topnav a.about
-{
-  padding: 30px;
-  float: left;
-
-}
-.topnav a.contact
-{
-  padding:30px;
-  float: left;
-
-}
-
-.topnav input[type=text] {
-  float: right;
-  padding: 6px;
-  border: none;
-  margin-top: 8px;
-  margin-right: 16px;
-  font-size: 17px;
-}
-.heading
-{
-  text-align:left;
-  padding-left: 100px;
-  padding-top: 100px;
+  }
   
-}
-::placeholder {
-  color:dodgerblue;
-  opacity: 1; 
-}
+  .topnav input[type=text] {
+    float: right;
+    padding: 6px;
+    border: none;
+    margin-top: 8px;
+    margin-right: 16px;
+    font-size: 17px;
+  }
+  
+  ::placeholder {
+    color:dodgerblue;
+    opacity: 1; 
+  }
+  .heading{
+   align-items: center;
+   padding: 0px 20px;
+   margin: 0px;
+   padding-top: 0px;;
+   color: whitesmoke;
+  }
